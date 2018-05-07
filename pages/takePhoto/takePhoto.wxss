@@ -1,0 +1,23 @@
+/* pages/takePhoto/takePhoto.wxss */
+.camera{
+   width: 100%;
+}
+.rect{
+  width:300px; height: 300px;
+  border:2px dashed #fe9d20;
+}
+.info{
+  text-align: center; position: absolute;
+  font-size: 11pt; color: #fe9d20;
+}
+.takephoto{
+  border-radius: 999px; 
+  box-shadow: 0 0 50rpx #ffd8a2;
+}
+.canvas{
+  width: 100%; overflow: hidden;
+}
+.biaochi{
+  background:#fe9d20;
+  position: absolute;
+}

@@ -1,0 +1,6 @@
+<canvas canvas-id="image-canvas" style='width:{{photoWidth}}px; height:{{photoHeight}}px;'></canvas>
+<text class='ocr'>识别结果：{{ocr}}</text>
+<view class='ocr'>
+  <input wx:if='showInput' type='text' placeholder='识别结果错误或无法识别时点此手动填写' maxlength='1' confirm-type='done' bindconfirm='exam' bindinput='userInput' style='height:2.4rem; min-height:2.4rem; margin-bottom:30rpx;'></input>
+  <button wx:if='showExam' type='default' bindtap='exam'>打分</button>
+</view>

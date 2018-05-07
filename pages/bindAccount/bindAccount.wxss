@@ -1,0 +1,18 @@
+/* pages/bindAccount/bindAccount.wxss */
+.section{
+  width: 90%; font-size: 11pt; color: #333;
+  margin-top: 10rpx; margin-bottom: 10rpx;
+  padding: 5%; padding-bottom:0; 
+}
+.section .section_title{
+  height: 18pt; line-height: 18pt;
+}
+.section input{
+  height: 26pt; line-height: 26pt; border-top: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc; margin-top: 30rpx;
+}
+.btn{
+  height: 26pt; line-height: 26pt;
+  font-size: 11pt; margin-top: 30rpx;
+  width: 100%;
+}

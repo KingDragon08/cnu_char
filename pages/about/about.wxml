@@ -1,0 +1,6 @@
+<!--pages/about/about.wxml-->
+<view style='text-align:center; margin-top:20rpx;'>乐智悦读使用说明</view>
+<view style='padding:20rpx; text-indent:2em; font-size:11pt; line-height:1.5;'>
+  乐智悦读微信小程序是配合乐智悦读官方网站https://lezhireading.com中手写汉字实时打分系统使用的小程序。为了记录成绩，请绑定乐智悦读网站账号后进行使用，当然，您也可以不绑定账号直接进行使用，这样您的成绩将不会被记录。
+</view>
+

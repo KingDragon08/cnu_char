@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/takePhoto/takePhoto",
+    "pages/takePhoto/upload",
+    "pages/logs/logs",
+    "pages/bindAccount/bindAccount",
+    "pages/about/about",
+    "pages/exam/exam"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fe9d20",
+    "navigationBarTitleText": "乐智悦读",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fe9d20",
+    "backgroundColorTop": "#fe9d20",
+    "backgroundColorBottom": "#fe9d20"
+  }
+}

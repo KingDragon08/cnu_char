@@ -1,0 +1,7 @@
+/* pages/takePhoto/upload.wxss */
+page{
+  overflow:visible;
+}
+.ocr{
+  font-size: 11pt; padding:20rpx;
+}

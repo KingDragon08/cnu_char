@@ -1,0 +1,29 @@
+/**index.wxss**/
+page{
+  width: 100%; height: calc(100% - 1rpx); 
+  background: #fe9d20;
+  border-top: 1rpx solid #ffd8a2;
+}
+.takephoto{
+  width: 400rpx; height: 400rpx;
+  border-radius: 999px; 
+  box-shadow: 0 0 50rpx #ffd8a2;
+  position: absolute; left: 50%; top: 50%;
+  margin-left: -200rpx; margin-top: -200rpx;
+}
+.takephoto_txt{
+  margin-top: 20rpx; text-align: center; color: #333;
+  font-size: 11pt;
+}
+.intro{
+  width: 90%; margin-left:5%; margin-top: 20rpx;
+  line-height: 14pt; color: #333; font-size: 9pt;
+}
+.bind_account{
+  color: #333; font-size: 9pt;
+  position: absolute; bottom: 50rpx; left:2em;
+}
+.about{
+  color: #333; font-size: 9pt;
+  position: absolute; bottom: 50rpx; right: 2em;
+}

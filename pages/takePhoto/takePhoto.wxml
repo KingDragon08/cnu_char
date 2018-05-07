@@ -1,0 +1,14 @@
+<!--pages/takePhoto/takePhoto.wxml-->
+<view style='width:{{width}}px; height:{{height}}px; overflow:hidden;'>
+  <camera device-position="back" flash="off" style="width:800px; height:800px; margin-left:-{{(800-width)/2}}px">
+    <cover-image src='{{logo}}' class='takephoto' bindtap='takePhoto' style='width:{{width>height-width?(height-width)*0.6:width*0.6}}px; height:{{width>height-width?(height-width)*0.6:width*0.6}}px; position:absolute; bottom:{{20+800-height}}px; left:{{(800-(width>height-width?(height-width)*0.6:width*0.6))/2}}px;'></cover-image>
+
+    <cover-view class='biaochi' style='top:{{gap}}px; left:{{(800-width)/2+gap}}px; width:300px; height:2px;'></cover-view>
+    <cover-view class='biaochi' style='top:{{gap+302}}px; left:{{(800-width)/2+gap}}px; width:300px; height:2px;'></cover-view>
+    <cover-view class='biaochi' style='top:{{gap+2}}px; left:{{(800-width)/2+gap}}px; width:2px; height:300px;'></cover-view>
+    <cover-view class='biaochi' style='top:{{gap+2}}px; right:{{(800-width)/2+gap+4}}px; width:2px; height:300px;'></cover-view>
+  </camera>
+</view>
+<!-- <view style='width:100%; height:{{width}}px; overflow:hidden;' wx-if='{{hasTakePhoto}}'>
+  <canvas canvas-id="image-canvas" style='width:800px; height:800px;'></canvas>
+</view> -->

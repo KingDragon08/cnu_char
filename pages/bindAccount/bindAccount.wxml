@@ -1,0 +1,12 @@
+<!--pages/bindAccount/bindAccount.wxml-->
+<view class="section">
+  <view class="section_title">账号</view>
+  <input name="input" placeholder="乐智悦读网站账号" value='{{phoneNumber}}' bindinput='phoneNumberInput'/>
+</view>
+<view class="section">
+  <view class="section_title">密码</view>
+  <input name="input" placeholder="乐智悦读网站密码" value='{{password}}' bindinput='passwordInput' password='true'/>
+</view>
+<view class='section'>
+  <button type='warn' class='btn' bindtap='go'>绑定</button>
+</view>
